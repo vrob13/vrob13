@@ -1,9 +1,9 @@
-.whatsapp-Icon {
+/* .whatsapp-Icon {
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 999;
-  }
+  } */
   
 .navbar {
     box-shadow: 2px 2px 8px #000;
@@ -40,6 +40,45 @@
   border-bottom: 0px;
 
 }
+
+/* Modo oscuro */
+.dark-mode {
+    background-color: #343a40;
+    color: #f8f9fa;
+  }
+  
+  #dark-mode-icon {
+    font-size: 1.5em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #dark-mode-btn.dark-mode .fa-sun {
+    display: none;
+  }
+  
+  #dark-mode-btn.dark-mode .fa-moon {
+    display: inline-block;
+  }
+  
+  #dark-mode-btn.light-mode .fa-sun {
+    display: inline-block;
+  }
+  
+  #dark-mode-btn.light-mode .fa-moon {
+    display: none;
+  }
+  .no-box-shadow {
+    border: none;
+    background-color: transparent;
+  }
+  #dark-mode-btn {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+  
+  
  
 /* body {
     text-align: center;
@@ -134,10 +173,6 @@
     font-size: 24px;
     margin-top: 9px;
   }
-
-
-  
-  
 
 #footer {
     background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
